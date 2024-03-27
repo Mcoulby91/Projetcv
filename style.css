@@ -1,0 +1,110 @@
+
+body 
+{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/*Application de style à la partie entière du cv*/
+.corp_cv 
+{
+    position: relative;
+    width: 100%;
+    max-width: 21cm;
+    min-height: 29.7cm;
+    background: rgb(255, 255, 255);
+    display: grid ;
+    grid-template-columns: 1fr 1fr ;
+
+}
+
+/*Application de style à la partie gauche du cv*/
+.partie_gauche 
+{
+    position: relative;
+    background-color: brown;
+    width: 80%;
+    grid-column: span 1;
+
+}
+
+.photo_profil 
+{
+    position: relative;
+    align-items: center;
+    padding: 10%;
+
+}
+
+.image 
+{
+    width: 90%;
+    height: 90%;
+    align-items: center;
+    border-radius: 90%;
+
+}
+h1
+{
+    color: aliceblue;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+ul {
+    list-style: none;
+    color: aliceblue;
+    line-height: 2;
+    padding-left: 80px;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+
+
+
+
+/*Application de style à la partie droite du cv*/
+.partie_droite 
+{
+    position: relative;
+    width: 110%;
+    background-color: rgb(255, 255, 255);
+    grid-column: span 1;
+    line-height: 1.5;
+}
+
+#nom {
+     color: brown;
+     text-align: left;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+}
+#a_propos 
+{
+    font-size: larger;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+#exp 
+{
+    text-align: left;
+    color:brown;
+    margin-right: 1px;
+    
+
+
+}
+.paragraphe 
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+span
+ {
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
